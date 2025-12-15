@@ -35,7 +35,7 @@ function modDivision(num, divider) {
      return calc(x-d, d)
   }
 
-  let remainder = calc(num, divider, multiplier)
+  let remainder = calc(num, divider)
   
   return {
     divider,
